@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer((req, res) => {
-  if (req.method === 'GET' && req.url === '/home') {
+  if (req.method === 'GET' && req.url === '/') {
     const filePath = path.join(__dirname, 'public/index.html');
 
     fs.readFile(filePath, 'utf8', (err, content) => {
