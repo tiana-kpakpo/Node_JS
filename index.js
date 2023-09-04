@@ -20,7 +20,7 @@ app.use(cors({
 app.use(express.static(path.join(__dirname, './src/public')));
 
 //use routes
-// app.use('/', routes)
+app.use('/api', routes)
 
 //default application root
 app.get('/', (req, res) => {

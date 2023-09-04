@@ -1,8 +1,11 @@
 ###
-POST http://localhost:4000/api/user
+POST http://localhost:5151/api/auth
 Content-Type: application/json
 
 {
-    "name" : "Isaac",
+    "password" : "Isaac",
     "email" : "yeboah@mail.com"
 }
+
+###
+GET http://localhost:5151/api/
