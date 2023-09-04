@@ -34,11 +34,7 @@ app.get('/', (req, res) => {
 
 //handle bad url requests
 app.use((req, res) => {
-    res.sendFile('notFound.html', err => {
-        if (err) {
-          res.status(500).send('internal server error');
-        }
-      });
+    res.status(404).send('Not Found');
   });
 
 
