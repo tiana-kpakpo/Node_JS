@@ -2,9 +2,9 @@
   "name": "admin-dashboard",
   "version": "1.0.0",
   "description": "employee management application",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "nodemon index.js"
   },
   "author": "Isaac",
   "license": "ISC",
