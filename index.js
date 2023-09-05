@@ -7,7 +7,7 @@ const path = require('path')
 
 //create new instance of express
 const app = express();
-const PORT = 5151;  //server port
+const PORT = 5500;  //server port
 
 
 
@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 })
 
 
-//handle bad url requests
+//handle wrong url requests
 app.use((req, res) => {
     res.status(404).send('Not Found');
   });

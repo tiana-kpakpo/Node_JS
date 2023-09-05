@@ -63,11 +63,12 @@
 
     form{
         margin-top: 6rem;
-        width: 50%;
+        width: 40%;
         text-align: center;
         margin: 0 auto;
-        background-color: #9e1919;
+        background-color: #445741;
         border-radius: 10px;
         padding: 1rem 2.5rem;
         color: white;
+        
     }
