@@ -1,10 +1,10 @@
 ###
-POST http://localhost:5500/api/auth
+POST http://localhost:5151/api/auth
 Content-Type: application/json
 
 {
-    "password" : "Isaac",
-    "email" : "yeboah@mail.com"
+    "password" : "admim",
+    "email" : "tianakpa@gmail.com"
 }
 
 ###

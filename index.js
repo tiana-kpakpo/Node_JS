@@ -7,7 +7,7 @@ const path = require('path')
 
 //create new instance of express
 const app = express();
-const PORT = 5500;  //server port
+const PORT = 5151;  //server port
 
 
 
